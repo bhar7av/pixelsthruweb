@@ -114,7 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'PTW-824': { name: 'GharKhoj Real Estate', status: 'Development', currentStep: 2, nextMilestone: 'Backend Integration API' },
     'PTW-912': { name: 'Spice Route Website', status: 'Design Mockup', currentStep: 1, nextMilestone: 'Client Approval on Figma UI' },
     'PTW-755': { name: 'Rangara E-Commerce', status: 'Final Testing', currentStep: 3, nextMilestone: 'Payment Gateway Live Test' },
-    'PTW-102': { name: 'Veda Yoga Landing Page', status: 'Launched', currentStep: 4, nextMilestone: 'None. Site is Live!' }
+    'PTW-102': { name: 'Veda Yoga Landing Page', status: 'Launched', currentStep: 4, nextMilestone: 'None. Site is Live!' },
+    'PTW-610': { name: 'Spice Route Restaurant', status: 'Launched', currentStep: 4, nextMilestone: 'None. Site is Live!' }
   };
 
   const timelineSteps = [

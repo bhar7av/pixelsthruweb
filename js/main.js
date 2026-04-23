@@ -293,6 +293,17 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.target === depositModal) closeFunc();
     });
     
+    const payLaterBtn = document.getElementById('payLaterBtn');
+    if (payLaterBtn) {
+      payLaterBtn.addEventListener('click', () => {
+        payLaterBtn.innerHTML = '<i class="fa-solid fa-clock"></i> Noted';
+        setTimeout(() => {
+          closeFunc();
+          payLaterBtn.innerHTML = 'Pay Later';
+        }, 1000);
+      });
+    }
+    
     if (confirmPaymentBtn) {
       confirmPaymentBtn.addEventListener('click', () => {
         confirmPaymentBtn.innerHTML = '<i class="fa-solid fa-check"></i> Verified & Initialized';

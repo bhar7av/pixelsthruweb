@@ -707,7 +707,40 @@ img {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  transition: transform 0.5s;
+  transition: transform 0.8s ease;
+}
+
+.level-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  z-index: 3;
+  backdrop-filter: blur(10px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.level-badge.starter { 
+  background: rgba(255, 255, 255, 0.1); 
+  color: white; 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.level-badge.business { 
+  background: rgba(193, 154, 107, 0.2); 
+  color: var(--primary); 
+  border: 1px solid rgba(193, 154, 107, 0.4); 
+}
+
+.level-badge.premium { 
+  background: rgba(255, 215, 0, 0.15); 
+  color: #FFDF00; 
+  border: 1px solid rgba(255, 215, 0, 0.4); 
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2); 
 }
 
 .portfolio-overlay {
